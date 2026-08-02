@@ -1,0 +1,18 @@
+[build-system]
+requires = ["scikit-build-core>=0.8.0", "pybind11>=2.11.0"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "hetero-agent-edge"
+version = "0.1.0"
+description = "Hardware-aware, zero-copy PagedAttention KV-cache engine for multi-agent LLM inference on Apple Silicon"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mlx>=0.16.0",
+    "mlx-lm>=0.18.0",
+    "pybind11>=2.11.0"
+]
+
+[tool.scikit-build]
+cmake.build-type = "Release"
