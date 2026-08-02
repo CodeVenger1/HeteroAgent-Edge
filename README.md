@@ -39,11 +39,8 @@ Attach the following three screenshots in your repository to demonstrate system 
 
 Demonstrates direct integration between Python and macOS Darwin system frameworks (`mach_host` and `IOKit`).
 
-```text
-[INSERT SCREENSHOT 1 HERE: Attach screenshot of running 'python tests/test_python_bindings.py']
-Suggested Alt Text: Native C++ Telemetry Output showing Total RAM, Free RAM, and Thermal Pressure.
+![Native C++ Telemetry Output showing Total RAM, Free RAM, and Thermal Pressure.](pic/p1.png)
 
-```
 
 > **Caption:** Direct zero-overhead C++ querying of macOS Unified Memory and Darwin thermal pressure states via Pybind11.
 
@@ -53,11 +50,8 @@ Suggested Alt Text: Native C++ Telemetry Output showing Total RAM, Free RAM, and
 
 Demonstrates allocation throughput and latency over 10,000 iterations (160,000 total KV pages).
 
-```text
-[INSERT SCREENSHOT 2 HERE: Attach screenshot of running 'python benchmarks/benchmark_kv_cache.py']
-Suggested Alt Text: KV Cache Benchmark output displaying 2.461 us mean latency and 6.5M pages per second throughput.
+![KV Cache Benchmark output displaying 2.461 us mean latency and 6.5M pages per second throughput.](pic/p2.png)
 
-```
 
 > **Caption:** Sub-3 microsecond PagedAttention KV-cache page allocation throughput executing 10k allocation cycles.
 
@@ -67,11 +61,8 @@ Suggested Alt Text: KV Cache Benchmark output displaying 2.461 us mean latency a
 
 Demonstrates the orchestrator executing a 4-turn multi-node agent DAG (`Planner` -> `Web Retriever` -> `Code Interpreter` -> `Summarizer`) with dynamic hardware checks.
 
-```text
-[INSERT SCREENSHOT 3 HERE: Attach screenshot of running 'python benchmarks/simulate_dynamic_workload.py']
-Suggested Alt Text: Multi-Agent Workload Simulation output showing turn-by-turn agent DAG execution and page allocations.
-
-```
+![Multi-Agent Workload Simulation output showing turn-by-turn agent DAG execution and page allocations-1.](pic/p3-a.png)
+![Multi-Agent Workload Simulation output showing turn-by-turn agent DAG execution and page allocations-2.](pic/p3-b.png)
 
 > **Caption:** Multi-agent DAG orchestration with dynamic per-node KV-cache allocation and hardware safety checks.
 
