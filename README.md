@@ -33,7 +33,6 @@ HeteroAgent-Edge moves low-level hardware sensing and scheduling policy into nat
 
 ## Performance Visibility & Screenshot Locations
 
-Attach the following three screenshots in your repository to demonstrate system execution and benchmark results.
 
 ### 1. C++ Native Telemetry Output
 
